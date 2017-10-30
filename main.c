@@ -90,7 +90,7 @@ const uint8_t portMapping[] =
 
 int main(void)
 {
-    /* HaltinWDT  */
+    /* Halting WDT  */
     MAP_WDT_A_holdTimer();
 
     /* TODO: LAB3 Set DCO to 12MHz */
@@ -306,3 +306,6 @@ extern void T32_INT0_IRQHandler(){
     }
 }
 // END LAB3 BUTTON AND STOPWATCH INTERRUPTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+//Testing
