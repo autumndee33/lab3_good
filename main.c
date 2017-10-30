@@ -119,11 +119,13 @@ int main(void)
     //          Start with the stopwatch paused, so it only starts actually counting in response to the relevant UART commands
     //        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ENTER CODE FOR LAB3 stopwatch init HERE:
 
-    MAP_Timer32_initModule(TIMER32_0_BASE, TIMER32_PRESCALER_1, TIMER32_32BIT, TIMER32_PERIODIC_MODE); //Initializing timer32
-    MAP_Timer32_startTimer(TIMER32_0_BASE, 0); //Starting timer32 timer
-    Timer32_setCount(TIMER32_0_BASE, 12000000); //Setting timer32 count
-    MAP_Timer32_enableInterrupt(TIMER32_0_BASE); //Enabling timer32 timer interrupt
-    MAP_Timer32_enableInterrupt(INT_PORT1); //Enabling interrupt for port 1
+//    MAP_Timer32_initModule(TIMER32_0_BASE, TIMER32_PRESCALER_1, TIMER32_32BIT, TIMER32_PERIODIC_MODE); //Initializing timer32
+//    MAP_Timer32_startTimer(TIMER32_0_BASE, 0); //Starting timer32 timer
+//    Timer32_setCount(TIMER32_0_BASE, 12000000); //Setting timer32 count
+//    MAP_Timer32_enableInterrupt(TIMER32_0_BASE); //Enabling timer32 timer interrupt
+//    MAP_Timer32_enableInterrupt(INT_PORT1); //Enabling interrupt for port 1
+
+//     :) You're on your way
 
 
 //        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End CODE FOR LAB3 stopwatch init
